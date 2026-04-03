@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Latihan 2</title>
+
+<script>
+function bukaKonten(judul, isi) {
+    var win = window.open("", "_blank");
+    win.document.write("<html><head><title>" + judul + "</title></head><body>");
+    win.document.write("<p>" + isi + "</p>");
+    win.document.write("</body></html>");
+}
+</script>
+
+</head>
+
+<body>
+
+<div style="background-color: lightblue;">
+<h1 align="center">BIODATAKU</h1>
+</div>
+
+<div style="background-color: lightyellow;">
+
+<p>
+<b>Nama :</b> 
+<span style="background-color: yellow;">Siti</span>
+<span style="background-color: lightgreen;">Aisyah</span>
+</p>
+
+<p>
+<b>NPM :</b> 1234567
+</p>
+
+<p>
+<b>Usia :</b> 20 Tahun
+</p>
+
+<p>
+<b>Media Sosial :</b> 
+<a href="https://www.instagram.com/syaahhhh._?igsh=ZDZzejBsMmI1ZTJs&utm_source=qr" target="_blank">
+syaahhhh._
+</a>
+</p>
+
+<p>
+<a href="#" onclick="bukaKonten('Pengalaman Kerja', 
+'Saya pernah bekerja sebagai bakers dengan membuat birthday cake, roti, dan pastry lainnya saya juga menjual di mall. lalu, saya pernah bekerja casual sebagai cook helper setelah lulus SMK, bekerja juga sebagai seller di butik pakaian lebaran dan saat ini bekerja sebagai cook helper di MBG')">
+<b>Pengalaman Kerja</b>
+</a>
+</p>
+
+<p>
+<a href="#" onclick="bukaKonten('Bahasa yang Dikuasai', 
+'Saya menguasai bahasa melayu (Malaysia), Bahasa Indonesia, dan juga Bahasa Inggris')">
+<b>Bahasa yang Dikuasai</b>
+</a>
+</p>
+
+<p>
+<a href="#" onclick="bukaKonten('Makanan Favorit', 
+'Makanan favorit saya adalah batagor kuah, spaghetti carbonara, dan seafood')">
+<b>Makanan Favorit</b>
+</a>
+</p>
+
+<p>
+<a href="#" onclick="bukaKonten('Artis Favorit', 
+'YB Arap dan Teman temannya')">
+<b>Artis Favorit</b>
+</a>
+</p>
+
+</div>
+
+</body>
+</html>
